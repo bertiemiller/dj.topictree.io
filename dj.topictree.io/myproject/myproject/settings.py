@@ -137,7 +137,13 @@ DATABASES = {
         'PASSWORD': 'TTDJHelp!1@',
         'HOST': '127.0.0.1',
         'PORT': '3306',
-	}
+	},
+    'urls': {
+        'NAME': 'url_data',
+        'ENGINE': 'django.db.backends.mysql',
+        'USER': 'tt_data',
+        'PASSWORD': 'TTDATAHelp!1@'
+    }
 }
 
 
